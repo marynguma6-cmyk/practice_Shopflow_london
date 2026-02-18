@@ -210,3 +210,5 @@ __marimo__/
 *.parquet
 data/
 data_science/feature_store/*.parquet
+
+generate_synthetic_data.py
