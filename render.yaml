@@ -1,0 +1,7 @@
+services:
+-type: web
+name: practice-shopflow-london
+runtime: python
+buildCommand: pip install poetry && poetry install --without dev
+startCommand: poetry run streamlit run your_app.py
+"Add render.yaml config"
